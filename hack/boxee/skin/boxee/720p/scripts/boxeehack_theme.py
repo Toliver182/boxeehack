@@ -105,7 +105,7 @@ def delete_theme():
 		mc.ShowDialogOk('Error','You cannot remove the boxee theme')
 		return
 	if theme_name == currently_enabled:
-		mc.ShowDialogOk('Error','This is the currently enabled theme. \n if you wish to remove this theme please select another theme before deleting this theme.')
+		mc.ShowDialogOk('Error','This is the currently enabled theme. \n if you wish to remove this theme please apply another theme before deleting this theme.')
 		return
 	if mc.ShowDialogConfirm("Confirmation", "Are you sure you wish to delete this theme", "Cancel", "Delete"):
 		commandStr = "rm -rf " + theme_location + "/"#build the delete string

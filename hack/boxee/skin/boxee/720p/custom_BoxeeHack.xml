@@ -571,7 +571,7 @@
 				</control>
 				<control type="button" id="405">
 					<include>SettingsButton</include>
-					<label>Download Theme</label>
+					<label>Delete Theme</label>
 					<onclick>XBMC.RunScript("special://skin/720p/scripts/boxeehack_theme.py", "theme_delete")</onclick>
 				</control>
 			</control>
